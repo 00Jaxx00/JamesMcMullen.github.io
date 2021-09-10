@@ -1,0 +1,100 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+
+#mainApp {
+    position:fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    background: linear-gradient(135deg, rgba(74,33,96), rgb(199, 58, 180));
+    padding-top:70px;
+    padding-bottom: 70px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#appTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:520px;
+    padding-bottom: 40px;
+    font-size: 60px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(139,73,169);
+    width:500px;
+    box-shadow: 10px 10px 5px grey;
+    border: solid rgb(255, 255, 255);
+    border-width: 5px 5px;
+    border-radius: 5px;
+}
+
+#input-todo {
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(135deg, rgb(222, 83, 129), rgb(255, 199, 177));
+    width:500px;
+    box-shadow: 10px 10px 5px grey;
+    border: solid rgb(255, 255, 255);
+    border-width: 5px 5px;
+    border-radius: 5px;
+}
+
+.todo-item {
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    font-size: 20px;;
+}
+
+.trashBtn:hover {
+    opacity: 70%;
+}
+
+.trashBtn {
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+     background: linear-gradient(135deg, rgb(121, 69, 150), rgb(128, 25, 114));
+    color:white;
+    border: solid black;
+    box-shadow: 5px 5px 5px grey;
+}
+
+
+#addBtn {
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(197, 113, 236);
+    color: black;
+    border: solid black;
+    background: linear-gradient(135deg, rgb(222, 83, 129), rgb(255, 199, 177));
+}
+#addBtn:hover {
+    opacity: 80%;
+}
