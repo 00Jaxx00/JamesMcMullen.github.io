@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*------ Navigation Bar ------ */
+
+header {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 0 40px rgb(68, 68, 68);
+}
+
+#Logo {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+#name {
+    margin-left: 0;
+    padding:0;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#title {
+    margin: auto;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#NavLists li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+}
+
+.listColor {
+    color:white;
+    background-color: rgb(27, 27, 27);
+    text-decoration: none;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgb(0, 0, 0);
+}
+
+#about:hover {
+    transition: .5s;
+    transform:scale(1.5);
+}
+
+#Coding:hover {
+    transition: .5s;
+    transform:scale(1.5);
+}
+
+#designWork:hover {
+    transition: .5s;
+    transform:scale(1.5);
+}
+
+#contact:hover {
+    transition: .5s;
+    transform:scale(1.5);
+}
+
+
+
+/*------ About ------ */
+
+#abtSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 100px;
+    background-image: url("background image.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#profile_picture {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    padding: 60px;
+}
+
+#Summary {
+    padding:20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 40px rgb(68, 68, 68);
+    border-radius: 20px;
+}
+
+/*------ Code Project ------ */
+
+#cdeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 100px;
+    background-color: rgb(20, 20, 20);
+}
+
+#code_header {
+    margin: 30px;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 40px rgb(68, 68, 68);
+    border-radius: 20px;
+}
+
+#codeIm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cdImg {
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+}
+
+.cdImg:hover {
+    transition: .5s;
+    transform:scale(1.5);
+}
+
+/*------ Designs ------ */
+
+#designs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+    background-image: url("background image.png");
+    background-size: cover;
+}
+
+#Dlogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#Hdesigns {
+    margin: 30px;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 40px rgb(68, 68, 68);
+    border-radius: 20px;
+}
+
+.Lsize {
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+}
+
+.Lsize:hover {
+    transition: .5s;
+    transform:scale(1.5);
+}
+
+/*------ Footer ------ */
+
+#foot {
+    margin:auto;
+    padding: 40px;
+    background-color: rgb(20, 20, 20);
+}
+
+.Fletters {
+    color:white;
+}
